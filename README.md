@@ -25,7 +25,7 @@ libkb is known to work on the following platforms:
 
 ### Usage: 
 
-Please see [README.1st](https://github.com/dimecoin/libkb/blob/master/README.1ST) and [INSTALL](https://github.com/dimecoin/libkb/blob/master/INSTALL)
+Please see [README.1st](https://github.com/dimecoin/libkb/blob/master/README.1ST),  [INSTALL](https://github.com/dimecoin/libkb/blob/master/INSTALL) and [libkb.txt](https://github.com/dimecoin/libkb/blob/master/doc/libkb.txt).
 
 ### Copying-policy: 
 Copyrighted but freely distributable. 
