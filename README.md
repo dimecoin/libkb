@@ -1,4 +1,4 @@
-**NOTE:** This is not my software.  The orignal maintainer can't be found and I'm just hosting it on github as a convience and for historical purposes.
+:warning: **NOTE:** This is not my software.  The orignal maintainer can't be found and I'm just hosting it on github as a convience and for historical purposes. :warning:
 
 ## Description: 
 
@@ -6,7 +6,8 @@ libkb is a free, advanced and portable low-level keyboard library for Linux and 
 
 ## About
 
-###Author: 
+###Author:
+
 markus.oberhumer@jk.uni-linz.ac.at (Markus F.X.J. Oberhumer)
 
 ### Currently maintained at: 
