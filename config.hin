@@ -1,0 +1,139 @@
+/* config.hin.  Generated automatically from configure.in by autoheader.  */
+/* acconfig.h -- autoheader configuration file
+ */
+
+
+#ifndef __LIBKB_CONFIG_H
+#define __LIBKB_CONFIG_H
+
+/* $TOP$ */
+
+/* Define to empty if the keyword does not work.  */
+#undef const
+
+/* Define if your C compiler doesn't accept -c and -o together.  */
+#undef NO_MINUS_C_MINUS_O
+
+/* Define if you have the ANSI C header files.  */
+#undef STDC_HEADERS
+
+/* Define if you can safely include both <sys/time.h> and <time.h>.  */
+#undef TIME_WITH_SYS_TIME
+
+/* Define to your architecture name.  */
+#undef MFX_ARCH
+
+/* Define to your CPU name.  */
+#undef MFX_CPU
+
+/* Define if your memcmp is broken.  */
+#undef NO_MEMCMP
+
+/* Define to the name of the distribution.  */
+#undef PACKAGE
+
+/* Define if you have the Seal 1.03 package.  */
+#undef USE_SEAL
+
+/* Define to the version of the distribution.  */
+#undef VERSION
+
+/* Define if you have the memcmp function.  */
+#undef HAVE_MEMCMP
+
+/* Define if you have the memcpy function.  */
+#undef HAVE_MEMCPY
+
+/* Define if you have the memmove function.  */
+#undef HAVE_MEMMOVE
+
+/* Define if you have the memset function.  */
+#undef HAVE_MEMSET
+
+/* Define if you have the <assert.h> header file.  */
+#undef HAVE_ASSERT_H
+
+/* Define if you have the <audio.h> header file.  */
+#undef HAVE_AUDIO_H
+
+/* Define if you have the <ctype.h> header file.  */
+#undef HAVE_CTYPE_H
+
+/* Define if you have the <curses.h> header file.  */
+#undef HAVE_CURSES_H
+
+/* Define if you have the <limits.h> header file.  */
+#undef HAVE_LIMITS_H
+
+/* Define if you have the <ncurses.h> header file.  */
+#undef HAVE_NCURSES_H
+
+/* Define if you have the <plush.h> header file.  */
+#undef HAVE_PLUSH_H
+
+/* Define if you have the <stddef.h> header file.  */
+#undef HAVE_STDDEF_H
+
+/* Define if you have the <time.h> header file.  */
+#undef HAVE_TIME_H
+
+/* Define if you have the <unistd.h> header file.  */
+#undef HAVE_UNISTD_H
+
+/* Define if you have the <vga.h> header file.  */
+#undef HAVE_VGA_H
+
+/* Define if you have the <vgagl.h> header file.  */
+#undef HAVE_VGAGL_H
+
+/* Define if you have the <vgakeyboard.h> header file.  */
+#undef HAVE_VGAKEYBOARD_H
+
+/* Define if you have the <vgamouse.h> header file.  */
+#undef HAVE_VGAMOUSE_H
+
+/* Define if you have the audio library (-laudio).  */
+#undef HAVE_LIBAUDIO
+
+/* Define if you have the curses library (-lcurses).  */
+#undef HAVE_LIBCURSES
+
+/* Define if you have the m library (-lm).  */
+#undef HAVE_LIBM
+
+/* Define if you have the ncurses library (-lncurses).  */
+#undef HAVE_LIBNCURSES
+
+/* Define if you have the vga library (-lvga).  */
+#undef HAVE_LIBVGA
+
+/* Define if you have the vgagl library (-lvgagl).  */
+#undef HAVE_LIBVGAGL
+
+/* $BOTTOM$ */
+
+#if defined(HAVE_SYS_RESOURCE_H) && !defined(TIME_WITH_SYS_TIME)
+#  undef /**/ HAVE_SYS_RESOURCE_H
+#endif
+
+#if defined(HAVE_SYS_TIMES_H) && !defined(TIME_WITH_SYS_TIME)
+#  undef /**/ HAVE_SYS_TIMES_H
+#endif
+
+#if defined(HAVE_ZLIB_H) && !defined(HAVE_LIBZ)
+#  undef /**/ HAVE_ZLIB_H
+#endif
+
+#if (SIZEOF_PTRDIFF_T <= 0)
+#  undef /**/ SIZEOF_PTRDIFF_T
+#endif
+
+#if (SIZEOF_SIZE_T <= 0)
+#  undef /**/ SIZEOF_SIZE_T
+#endif
+
+#endif /* already included */
+
+/*
+vi:ts=4
+*/

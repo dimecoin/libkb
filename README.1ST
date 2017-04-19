@@ -1,0 +1,99 @@
+============================================================================
+    libkb -- a free, advanced and portable low-level keyboard library
+           http://wildsau.idv.uni-linz.ac.at/mfx/libkb.html
+============================================================================
+
+Please read the file doc/libkb.txt for an introduction to libkb.
+
+See the file NEWS for a list of major changes in the current release.
+
+See the file INSTALL for compilation and installation instructions.
+
+
+libkb is a free, advanced and portable low-level keyboard library
+for MSDOS and Linux.
+
+- Allows access to ALL keys and ALL key combinations.
+- Also handles Pause key and Control-Break.
+- Ideal for games and all applications that want
+  total control over the keyboard.
+- Supports virtual terminal switching under Linux.
+- Practical kbhit()/getkey() like interface for textual input.
+- Intelligent signal handling and emergency-exit feature
+  to achieve a maximum of robustness.
+- Easy to use. Written entirely in C without assembler code.
+- Comes with full source, example programs and documentation.
+- Works with Borland C/Microsoft C/Watcom C/djgpp v1+v2/Linux gcc.
+
+Take a look at the end of this file if you have been using libkb before.
+
+
+  Have fun,
+   Markus
+
+
+
+Directory overview:
+-------------------
+  acconfig      Autoconf configuration files (UNIX specific)
+  b             various support files for DOS, Windows 95/NT, OS/2, ...
+  bin           precompiled binaries
+  doc           documentation
+  examples      example programs
+  include       public header files
+  src           library source
+  tests         more or less exotic test programs
+  util          some utility stuff
+
+
+
+Running the precompiled test programs
+-------------------------------------
+
+Usage: kbtst [123456] [optional-second-argument]
+Description:
+       test various functions of the libkb library
+Commands:
+       1    install keyboard handler, use kb_inkey()
+       2    install keyboard handler, use kb_getkey()
+       3    use kb_os_getkey()
+       4    use kb_bios_getkey()
+       5    use getch()
+       6    install keyboard handler, user interface (DEFAULT)
+
+If you pass a second argument, command 1-5 will run a simple
+benchmark whereas command 6 will start up with some possibly dangerous
+features enabled (like emergency exit).
+
+
+Usage: tube [options]
+
+  If tube doesn't work properly, try the `--no-sound' option.
+  There are some other options as well, see source code.
+
+
+
+Availability
+------------
+
+The latest version of libkb should always be available at the
+following sites (and their mirrors):
+
+ftp://x2ftp.oulu.fi/pub/msdos/programming/libs/  (primary MSDOS site)
+ftp://ftp.simtel.net/pub/simtelnet/msdos/c/      (alternate MSDOS site)
+ftp://ftp.coast.net/Coast/msdos/c/               (alternate MSDOS site)
+ftp://sunsite.unc.edu/pub/Linux/libs/ui/         (primary Linux site)
+ftp://tsx-11.mit.edu/pub/linux/sources/libs/     (alternate Linux site)
+
+Note that all distributions contain the same files.
+They are just packed with different archivers, zip and tar+gzip respectively.
+
+
+
+Important changes from v1.00 to v1.01
+-------------------------------------
+The scancodes of the three Windows95 keys were changed to match
+the Linux MEDIUMRAW conventions.
+
+You have to adapt and recompile your applications.
+

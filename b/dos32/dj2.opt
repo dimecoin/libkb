@@ -1,0 +1,4 @@
+-W
+-pedantic
+-fomit-frame-pointer
+-fno-strength-reduce

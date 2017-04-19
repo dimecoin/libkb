@@ -1,0 +1,6 @@
+kbhandle.o
+kblinux.o
+kbmlock.o
+kbos.o
+kbsignal.o
+kbtables.o

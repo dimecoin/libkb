@@ -1,0 +1,193 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:568: checking for a BSD compatible install
+configure:622: checking whether build environment is sane
+configure:679: checking whether make sets ${MAKE}
+configure:725: checking for working aclocal
+configure:738: checking for working autoconf
+configure:751: checking for working automake
+configure:764: checking for working autoheader
+configure:777: checking for working makeinfo
+configure:800: checking host system type
+configure:822: checking whether to enable maintainer-specific portions of Makefiles
+configure:850: checking whether we are using GNU make
+configure:947: checking for gcc
+configure:1024: checking whether the C compiler (gcc  ) works
+configure:1038: gcc -o conftest    conftest.c  1>&5
+configure:1058: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1063: checking whether we are using GNU C
+configure:1072: gcc -E conftest.c
+configure:1087: checking whether gcc accepts -g
+configure:1118: checking for gcc option to accept ANSI C
+configure:1171: gcc  -c   conftest.c 1>&5
+configure:1195: checking how to run the C preprocessor
+configure:1216: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1257: checking whether gcc and cc understand -c and -o together
+configure:1272: gcc -c conftest.c -o conftest.o 1>&5
+configure:1273: gcc -c conftest.c -o conftest.o 1>&5
+configure:1278: cc -c conftest.c 1>&5
+configure:1280: cc -c conftest.c -o conftest.o 1>&5
+configure:1281: cc -c conftest.c -o conftest.o 1>&5
+configure:1308: checking for Cygwin32 environment
+configure:1320: gcc -c   conftest.c 1>&5
+configure: In function `main':
+configure:1316: `__CYGWIN32__' undeclared (first use in this function)
+configure:1316: (Each undeclared identifier is reported only once
+configure:1316: for each function it appears in.)
+configure: failed program was:
+#line 1313 "configure"
+#include "confdefs.h"
+
+int main() {
+return __CYGWIN32__;
+; return 0; }
+configure:1337: checking for Mingw32 environment
+configure:1349: gcc -c   conftest.c 1>&5
+configure: In function `main':
+configure:1345: `__MINGW32__' undeclared (first use in this function)
+configure:1345: (Each undeclared identifier is reported only once
+configure:1345: for each function it appears in.)
+configure: failed program was:
+#line 1342 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:1368: checking for executable suffix
+configure:1430: checking whether to build a debug version
+configure:1445: checking for ranlib
+configure:1484: checking for ld used by GCC
+configure:1541: checking if the linker (/usr/bin/ld) is GNU ld
+GNU ld version 2.11.93.0.2 20020207
+configure:1557: checking for BSD-compatible nm
+configure:1592: checking whether ln -s works
+ltconfig:585: checking if gcc PIC flag -fPIC works
+ltconfig:586: gcc -c  -fPIC -DPIC  -DKB_DEBUG=1 conftest.c 1>&5
+ltconfig:629: checking if gcc static flag -static works
+ltconfig:630: gcc -o conftest   -DKB_DEBUG=1  -static conftest.c  1>&5
+GNU ld version 2.11.93.0.2 20020207
+ltconfig:1008: checking if global_symbol_pipe works
+ltconfig:1009: gcc -c   -DKB_DEBUG=1 conftest.c 1>&5
+ltconfig:1012: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.* [ABCDGISTUW] \([_A-Za-z][_A-Za-z0-9]*\)$/\1 \1/p' > conftest.nm"
+ltconfig:1070: gcc -o conftest  -fno-builtin  -DKB_DEBUG=1  conftest.c conftestm.o 1>&5
+configure:1686: checking for audio.h
+configure:1696: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:1692:19: audio.h: No such file or directory
+configure: failed program was:
+#line 1691 "configure"
+#include "confdefs.h"
+#include <audio.h>
+configure:1792: checking for init_color in -lncurses
+configure:1811: gcc -o conftest   -DKB_DEBUG=1  conftest.c -lncurses   1>&5
+configure:1892: checking for sin in -lm
+configure:1911: gcc -o conftest   -DKB_DEBUG=1  conftest.c -lm   1>&5
+configure:1904: warning: conflicting types for built-in function `sin'
+configure:1939: checking for vga_setmode in -lvga
+configure:1958: gcc -o conftest   -DKB_DEBUG=1  conftest.c -lvga  -lm  1>&5
+/usr/bin/ld: cannot find -lvga
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1947 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char vga_setmode();
+
+int main() {
+vga_setmode()
+; return 0; }
+configure:1986: checking for gl_setcontext in -lvgagl
+configure:2005: gcc -o conftest   -DKB_DEBUG=1  conftest.c -lvgagl  -lm  1>&5
+/usr/bin/ld: cannot find -lvgagl
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1994 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gl_setcontext();
+
+int main() {
+gl_setcontext()
+; return 0; }
+configure:2041: checking for ANSI C header files
+configure:2054: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2121: gcc -o conftest   -DKB_DEBUG=1  conftest.c  1>&5
+configure:2145: checking whether time.h and sys/time.h may both be included
+configure:2159: gcc -c   -DKB_DEBUG=1 conftest.c 1>&5
+configure:2183: checking for assert.h
+configure:2193: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2183: checking for ctype.h
+configure:2193: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2183: checking for limits.h
+configure:2193: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2183: checking for stddef.h
+configure:2193: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2183: checking for time.h
+configure:2193: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2183: checking for unistd.h
+configure:2193: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2229: checking for curses.h
+configure:2239: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2229: checking for ncurses.h
+configure:2239: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2269: checking for vga.h
+configure:2279: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2275:17: vga.h: No such file or directory
+configure: failed program was:
+#line 2274 "configure"
+#include "confdefs.h"
+#include <vga.h>
+configure:2269: checking for vgagl.h
+configure:2279: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2275:19: vgagl.h: No such file or directory
+configure: failed program was:
+#line 2274 "configure"
+#include "confdefs.h"
+#include <vgagl.h>
+configure:2269: checking for vgakeyboard.h
+configure:2279: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2275:25: vgakeyboard.h: No such file or directory
+configure: failed program was:
+#line 2274 "configure"
+#include "confdefs.h"
+#include <vgakeyboard.h>
+configure:2269: checking for vgamouse.h
+configure:2279: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2275:22: vgamouse.h: No such file or directory
+configure: failed program was:
+#line 2274 "configure"
+#include "confdefs.h"
+#include <vgamouse.h>
+configure:2309: checking for plush.h
+configure:2319: gcc -E  -DKB_DEBUG=1 conftest.c >/dev/null 2>conftest.out
+configure:2315:19: plush.h: No such file or directory
+configure: failed program was:
+#line 2314 "configure"
+#include "confdefs.h"
+#include <plush.h>
+configure:2357: checking for working const
+configure:2411: gcc -c   -DKB_DEBUG=1 conftest.c 1>&5
+configure:2440: checking for memcmp
+configure:2471: gcc -o conftest   -DKB_DEBUG=1  conftest.c  1>&5
+configure:2455: warning: conflicting types for built-in function `memcmp'
+configure:2440: checking for memcpy
+configure:2471: gcc -o conftest   -DKB_DEBUG=1  conftest.c  1>&5
+configure:2455: warning: conflicting types for built-in function `memcpy'
+configure:2440: checking for memmove
+configure:2471: gcc -o conftest   -DKB_DEBUG=1  conftest.c  1>&5
+configure:2440: checking for memset
+configure:2471: gcc -o conftest   -DKB_DEBUG=1  conftest.c  1>&5
+configure:2455: warning: conflicting types for built-in function `memset'
+configure:2496: checking for 8-bit clean memcmp
+configure:2510: gcc -o conftest   -DKB_DEBUG=1  conftest.c  1>&5
+configure:2545: checking whether signed to unsigned casting is broken
+configure:2557: gcc -o conftest   -DKB_DEBUG=1  conftest.c  1>&5
+configure:2577: checking whether gcc suffers the -fschedule-insns bug
+configure:2598: gcc -o conftest  -O2 -fschedule-insns -fschedule-insns2  -DKB_DEBUG=1  conftest.c  1>&5
+configure:2620: checking whether gcc suffers the -fstrength-reduce bug
+configure:2648: gcc -o conftest  -O2 -fstrength-reduce  -DKB_DEBUG=1  conftest.c  1>&5
