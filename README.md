@@ -8,7 +8,7 @@ libkb is a free, advanced and portable low-level keyboard library for Linux and 
 
 ### Author:
 
-markus.oberhumer@jk.uni-linz.ac.at (Markus F.X.J. Oberhumer)
+Markus F.X.J. Oberhumer (His email address and website are no longer avaiable).
 
 ### Currently maintained at: 
 https://github.com/dimecoin/libkb
