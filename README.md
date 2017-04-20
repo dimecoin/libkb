@@ -6,7 +6,7 @@ libkb is a free, advanced and portable low-level keyboard library for Linux and 
 
 ## About
 
-###Author:
+### Author:
 
 markus.oberhumer@jk.uni-linz.ac.at (Markus F.X.J. Oberhumer)
 
